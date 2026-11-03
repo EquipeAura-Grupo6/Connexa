@@ -2,13 +2,18 @@
   "servers": {
     "ado-planejamento": {
       "type": "http",
-      "url": "https://mcp.dev.azure.com/<organizacao-azure-devops>",
-      "headers": { "X-MCP-Toolsets": "wit,work" }
+      "url": "https://mcp.dev.azure.com/EquipeAura",
+      "headers": {
+        "X-MCP-Toolsets": "wit,work"
+      }
     },
     "ado-leitura": {
       "type": "http",
-      "url": "https://mcp.dev.azure.com/<organizacao-azure-devops>",
-      "headers": { "X-MCP-Toolsets": "wit,work", "X-MCP-Readonly": "true" }
+      "url": "https://mcp.dev.azure.com/EquipeAura",
+      "headers": {
+        "X-MCP-Toolsets": "wit,work",
+        "X-MCP-Readonly": "true"
+      }
     }
   },
   "inputs": []
